@@ -16,7 +16,7 @@ class GridviewEx extends StatelessWidget {
               // scrollDirection: Axis
               //     .horizontal, //initial is vertical, make children inside gride can scrolling with horizontal or vertical direction
               crossAxisCount: 2, //how much maximum grid in one stack
-              padding: EdgeInsets.all(10), //margin outside the Grid
+              padding: const EdgeInsets.all(10), //margin outside the Grid
               mainAxisSpacing: 10, //spacing between column (top bottom)
               crossAxisSpacing: 10, //spacing between row (left right)
               // reverse: true, //will be reverse stack from last children to first children

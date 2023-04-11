@@ -7,11 +7,11 @@ class AllButtonEx extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Button on Flutter Widget"),
+        title: const Text("Button on Flutter Widget"),
         centerTitle: true,
       ),
       body: ListView(
-        padding: EdgeInsets.all(30),
+        padding: const EdgeInsets.all(30),
         children: [
           ElevatedButton(
             onPressed: () {},
@@ -79,8 +79,8 @@ class AllButtonEx extends StatelessWidget {
           ),
           FloatingActionButton.extended(
             onPressed: () {},
-            label: Text("Floating Extended"),
-            icon: Icon(Icons.flag_outlined),
+            label: const Text("Floating Extended"),
+            icon: const Icon(Icons.flag_outlined),
           ),
         ],
       ),

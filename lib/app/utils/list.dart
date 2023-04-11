@@ -9,8 +9,12 @@ import 'package:flutter_basic_ui/app/widgets/list_of_widget_example/page_navigat
 import 'package:flutter_basic_ui/app/widgets/list_of_widget_example/appbar_with_sliverappbar.dart';
 import 'package:flutter_basic_ui/app/widgets/list_of_widget_example/tabbar_ex.dart';
 import 'package:flutter_basic_ui/app/widgets/list_of_widget_example/drawer_ex.dart';
-import 'package:flutter_basic_ui/app/widgets/list_of_widget_example/allButton_ex.dart';
+import 'package:flutter_basic_ui/app/widgets/list_of_widget_example/all_button_ex.dart';
 import 'package:flutter_basic_ui/app/widgets/list_of_widget_example/text_field_ex.dart';
+import 'package:flutter_basic_ui/app/widgets/list_of_widget_example/date_time_ex.dart';
+import 'package:flutter_basic_ui/app/widgets/list_of_widget_example/form_and_widget_validation.dart';
+import 'package:flutter_basic_ui/app/widgets/list_of_widget_example/selected_value_widget.dart';
+import 'package:flutter_basic_ui/app/widgets/list_of_widget_example/dialog_and_bottom_sheet.dart';
 
 final widgetList = [
   {
@@ -86,21 +90,27 @@ final widgetList = [
     "icon": Icons.text_fields,
   },
   {
-    "id": 10,
-    "name": "All Button",
-    "component": const AllButtonEx(),
-    "icon": Icons.smart_button_rounded,
+    "id": 12,
+    "name": "Date Time",
+    "component": const DateTimeEx(),
+    "icon": Icons.date_range,
   },
   {
-    "id": 10,
-    "name": "All Button",
-    "component": const AllButtonEx(),
-    "icon": Icons.smart_button_rounded,
+    "id": 13,
+    "name": "Form Validation",
+    "component": const FormAndWidgetValidation(),
+    "icon": Icons.dynamic_form,
   },
   {
-    "id": 10,
-    "name": "All Button",
-    "component": const AllButtonEx(),
-    "icon": Icons.smart_button_rounded,
+    "id": 14,
+    "name": "Selected Widget",
+    "component": const SelectedValueWidget(),
+    "icon": Icons.select_all,
+  },
+  {
+    "id": 15,
+    "name": "Dialog & Bottom Sheet",
+    "component": const DialogAndButtomSheet(),
+    "icon": Icons.dynamic_feed_outlined,
   },
 ];

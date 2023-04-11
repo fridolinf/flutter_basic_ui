@@ -77,7 +77,7 @@ class SimpleSliverAppBarWidget extends StatelessWidget {
           SliverList(
             delegate: SliverChildBuilderDelegate(
               childCount: 20,
-              (context, index) => Container(
+              (context, index) => SizedBox(
                 height: 40,
                 child: Text("SLIVER $index"),
               ),
