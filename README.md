@@ -57,19 +57,6 @@ Run without debug
   ctrl + f5
 ```
 
-## Related
-
-Here are some related projects
-
-- Build and release flutter project
-
-[macOS](https://docs.flutter.dev/deployment/macos)
-
-[Windows](https://docs.flutter.dev/deployment/windows)
-
-- Install flutter plugin for vscode
-  [Flutter plugin](https://docs.flutter.dev/get-started/editor#:~:text=Install%20the%20Flutter%20and%20Dart,the%20list%2C%20and%20click%20Install.)
-
 ## Screenshots
 
 [App Screenshot](https://drive.google.com/drive/folders/1z5ldz8A2qNXr-3XvIxtJNLXG3Q8-9_6p?usp=share_link)
